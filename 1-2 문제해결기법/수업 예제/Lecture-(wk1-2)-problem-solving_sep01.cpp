@@ -1,5 +1,5 @@
 //#define _CRT_SECURE_NO_WARNINGS
-//#include <stdio.h>
+#include <stdio.h>
 
 //int main() {
 //	int  num;
@@ -15,36 +15,36 @@
 //}
 
 
-//void determin(int a);
-//int main() {
-//	int  num;
-//	printf("Please type an integer: ");
-//	scanf("%d", &num);
-//	determin(num);
-//
-//	return 0;
-//}
-//
-//void determin(int a) {
-//	if ((a % 2) == 1)
-//		printf("An odd integer\n");
-//	else
-//		printf("An even integer\n");
+// void determin(int a);
+// int main() {
+// 	int  num;
+// 	printf("Please type an integer: ");
+// 	scanf("%d", &num);
+// 	determin(num);
+
+// 	return 0;
+// }
+
+// void determin(int a) {
+// 	if ((a % 2) == 1)
+// 		printf("An odd integer\n");
+// 	else
+// 		printf("An even integer\n");
 // }
 
 
-//int main() {
-//	int  num;
-//	printf("Please type an integer: ");
-//	scanf("%d", &num);
-//
-//	if (num % 2) // 0, 1
-//		printf("An odd integer\n");
-//	else
-//		printf("An even integer\n");
-//
-//	return 0;
-//}
+int main() {
+	int  num;
+	printf("Please type an integer: ");
+	scanf("%d", &num);
+
+	if (num % 2) // 0, 1
+		printf("An odd integer\n");
+	else
+		printf("An even integer\n");
+
+	return 0;
+}
 
 
 //

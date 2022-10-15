@@ -22,13 +22,13 @@ int main() {
     }
 
     //// linking stage
-    for (int i = 0; i < NUM; i++) {
+    for (int i = 0; i < NUM - 1; i++) {
         node[i].next = &node[i+1];
     }
 
     printf("\nAfter linking\n");
     for (int i = 0; i < NUM; i++) {
-        printf("i=%d key=%d next = %d Add=%d\n", i, node[i].key, node[i].next, &node[i]);
+        printf("i=%d key=%d next = %10d Add=%d\n", i, node[i].key, node[i].next, &node[i]);
     }
 
     return 0;
